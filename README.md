@@ -1,5 +1,7 @@
 # VEX AI Robotics Competition Enhancement
 
+![Demo](https://viet-in-tech.github.io/vex-ai-robotics-demo.gif)
+
 **Georgia Tech CS6675 · Spring 2024**
 **Author:** Viet Nguyen · pnguyen369@gatech.edu
 **Submitted:** February 24, 2024
