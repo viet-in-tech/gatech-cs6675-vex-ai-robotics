@@ -2,6 +2,8 @@
 
 ![Demo](https://viet-in-tech.github.io/vex-ai-robotics-demo.gif)
 
+**Portfolio write-up:** [VEX AI Robotics Competition: 3D Mapping, SpotFi & P2P Coordination](https://viet-in-tech.github.io/vex-ai-robotics.html)
+
 **Georgia Tech CS6675 · Spring 2024**
 **Author:** Viet Nguyen · pnguyen369@gatech.edu
 **Submitted:** February 24, 2024
@@ -28,7 +30,7 @@ The existing VEX AI system includes a GPS Sensor, AI Vision System, and Sensor F
 
 ### Baseline Design — SpotFi + RGB-D 3D Mapping
 - **SpotFi** (Stanford, 2015): WiFi-based decimeter-level localization using Angle of Arrival from channel state information — improves positional accuracy without additional hardware beyond the existing V5 Radio
-- **RGB-D Mapping**: Four Intel RealSense Depth Camera D457 units mounted on 10-foot posts at each field corner, providing real-time 3D depth imaging of the entire playing surface
+- **RGB-D Mapping**: Four Intel RealSense Depth Camera D457 units mounted at each field corner, providing real-time 3D depth imaging of the entire playing surface
 - Both integrated with the **NVIDIA Jetson Nano** already embedded in the VEX AI system
 
 ### Design Refinement — P2P Decentralized Coordination
